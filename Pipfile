@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 jupyterlab = "==3.0.16"
+jldracula = "==0.1.0"
 
 [dev-packages]
 
