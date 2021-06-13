@@ -595,7 +595,7 @@ def resample_and_test_performance_function(ResampleMethod, X_train, y_train, X_t
 
     '''
     # Generate the resampled data using one of the imblearn methods
-    X_resampled_train, y_resampled_train = ResampleMethod.fit_sample(X_train, y_train)
+    X_resampled_train, y_resampled_train = ResampleMethod.fit_resample(X_train, y_train)
 
     print('The size of the resampled train sets are as follows:')
     print(X_resampled_train.shape,sum(y_resampled_train))
